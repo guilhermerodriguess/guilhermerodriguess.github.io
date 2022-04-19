@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.6f9e75a0.js",
+    "main.css": "/static/css/main.0c7ac2e8.css",
+    "main.js": "/static/js/main.407e94c9.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Tela-de-Login.gif": "/static/media/Tela-de-Login.44cc35dae2f335dc60ec.gif",
+    "static/media/SquareImage.png": "/static/media/SquareImage.c01bc482b814dad5f89f.png",
+    "static/media/circleImage.png": "/static/media/circleImage.7edd404a877459409c2f.png",
+    "static/media/Guilherme Currículo.pdf": "/static/media/Guilherme Currículo.0263148006ec624025f2.pdf",
+    "static/media/SquarePeg-Regular.ttf": "/static/media/SquarePeg-Regular.381be1381bbd94205c6f.ttf",
+    "static/media/RedactedScript-Regular.ttf": "/static/media/RedactedScript-Regular.545fb27772253d40b1f2.ttf",
+    "static/media/menuIcon.png": "/static/media/menuIcon.0122cbba3199fc55350a.png",
+    "static/media/phoneIcon.png": "/static/media/phoneIcon.af106f67ea87f1109902.png",
+    "static/media/logoGithub.webp": "/static/media/logoGithub.70d0184b4b75556d1941.webp",
+    "static/media/toggle.png": "/static/media/toggle.93001c159f901e7ff758.png",
+    "static/media/toggle-dark.png": "/static/media/toggle-dark.5ae647da9d606f29070a.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.6f9e75a0.js.map": "/static/js/main.6f9e75a0.js.map",
+    "main.0c7ac2e8.css.map": "/static/css/main.0c7ac2e8.css.map",
+    "main.407e94c9.js.map": "/static/js/main.407e94c9.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6f9e75a0.js"
+    "static/css/main.0c7ac2e8.css",
+    "static/js/main.407e94c9.js"
   ]
 }
