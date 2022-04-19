@@ -9,7 +9,6 @@ import Menu from './component/Menu';
 import MyProvider from './context/MyProvider';
 
 function App() {
-  document.title = 'Guilherme Portfólio'
   return (
   <div className="App">
     <MyProvider>
