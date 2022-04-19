@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import './'
+import Home from './component/Home';
+import Sobre from './component/Sobre';
+import Projetos from './component/Projetos';
+import Contato from './component/Contato';
+import Footer from './component/Footer';
+import Menu from './component/Menu';
+import MyProvider from './context/MyProvider';
 
 function App() {
+  document.title = 'Guilherme Portfólio'
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div className="App">
+    <MyProvider>
+      <Menu />
+      <Home />
+      <Sobre />
+      <Projetos />
+      <Contato />
+      <Footer />
+    </MyProvider>
+  </div>
   );
 }
 

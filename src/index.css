@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  font-family: 'square peg';
+  font-weight: 1;
+} 
+
+*::selection {
+  background: #4d6b58;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*:focus {
+  outline: none;
+}
+
+@font-face {
+  font-family: 'square peg';
+  src: url('./Fontes/SquarePeg-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Redacted script';
+  src: url('./Fontes/RedactedScript-Regular.ttf');
 }
