@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c7ac2e8.css",
-    "main.js": "/static/js/main.407e94c9.js",
+    "main.css": "/static/css/main.7dfd403e.css",
+    "main.js": "/static/js/main.fd4bfe83.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Tela-de-Login.gif": "/static/media/Tela-de-Login.44cc35dae2f335dc60ec.gif",
-    "static/media/SquareImage.png": "/static/media/SquareImage.c01bc482b814dad5f89f.png",
-    "static/media/circleImage.png": "/static/media/circleImage.7edd404a877459409c2f.png",
     "static/media/Guilherme Currículo.pdf": "/static/media/Guilherme Currículo.0263148006ec624025f2.pdf",
     "static/media/SquarePeg-Regular.ttf": "/static/media/SquarePeg-Regular.381be1381bbd94205c6f.ttf",
     "static/media/RedactedScript-Regular.ttf": "/static/media/RedactedScript-Regular.545fb27772253d40b1f2.ttf",
-    "static/media/menuIcon.png": "/static/media/menuIcon.0122cbba3199fc55350a.png",
-    "static/media/phoneIcon.png": "/static/media/phoneIcon.af106f67ea87f1109902.png",
-    "static/media/logoGithub.webp": "/static/media/logoGithub.70d0184b4b75556d1941.webp",
-    "static/media/toggle.png": "/static/media/toggle.93001c159f901e7ff758.png",
-    "static/media/toggle-dark.png": "/static/media/toggle-dark.5ae647da9d606f29070a.png",
+    "static/media/circleImage.avif": "/static/media/circleImage.7bb759724306b95aa409.avif",
+    "static/media/SquareImage.avif": "/static/media/SquareImage.28e7f529507ee39d4653.avif",
+    "static/media/logoGithub.avif": "/static/media/logoGithub.973d9c043571d604f00e.avif",
+    "static/media/phoneIcon.avif": "/static/media/phoneIcon.fcbf95e14002f57e7fdf.avif",
+    "static/media/menuIcon.avif": "/static/media/menuIcon.933f55b41ff38735cfe9.avif",
+    "static/media/Tela-de-Login.avif": "/static/media/Tela-de-Login.25e08dca259c557dadc6.avif",
+    "static/media/toggle-dark.avif": "/static/media/toggle-dark.1c1bfadec14b6fb9c6e5.avif",
+    "static/media/emailIcon.avif": "/static/media/emailIcon.b832d4c2d93a5873a4bb.avif",
+    "static/media/arrow.avif": "/static/media/arrow.ad7de59a46c16783855e.avif",
+    "static/media/logoLinkedin.avif": "/static/media/logoLinkedin.a6d8d018246f053d088b.avif",
+    "static/media/pinIcon.avif": "/static/media/pinIcon.bbd473397fa4da67de42.avif",
+    "static/media/toggle.avif": "/static/media/toggle.f005f92d1e9318680171.avif",
     "index.html": "/index.html",
-    "main.0c7ac2e8.css.map": "/static/css/main.0c7ac2e8.css.map",
-    "main.407e94c9.js.map": "/static/js/main.407e94c9.js.map",
+    "main.7dfd403e.css.map": "/static/css/main.7dfd403e.css.map",
+    "main.fd4bfe83.js.map": "/static/js/main.fd4bfe83.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c7ac2e8.css",
-    "static/js/main.407e94c9.js"
+    "static/css/main.7dfd403e.css",
+    "static/js/main.fd4bfe83.js"
   ]
 }
