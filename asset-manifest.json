@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7dfd403e.css",
-    "main.js": "/static/js/main.2e1c0049.js",
+    "main.css": "/static/css/main.3e040dfc.css",
+    "main.js": "/static/js/main.fa5b7898.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Guilherme Currículo.pdf": "/static/media/Guilherme Currículo.0263148006ec624025f2.pdf",
     "static/media/SquarePeg-Regular.ttf": "/static/media/SquarePeg-Regular.381be1381bbd94205c6f.ttf",
@@ -19,12 +19,12 @@
     "static/media/pinIcon.avif": "/static/media/pinIcon.bbd473397fa4da67de42.avif",
     "static/media/toggle.avif": "/static/media/toggle.f005f92d1e9318680171.avif",
     "index.html": "/index.html",
-    "main.7dfd403e.css.map": "/static/css/main.7dfd403e.css.map",
-    "main.2e1c0049.js.map": "/static/js/main.2e1c0049.js.map",
+    "main.3e040dfc.css.map": "/static/css/main.3e040dfc.css.map",
+    "main.fa5b7898.js.map": "/static/js/main.fa5b7898.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dfd403e.css",
-    "static/js/main.2e1c0049.js"
+    "static/css/main.3e040dfc.css",
+    "static/js/main.fa5b7898.js"
   ]
 }
