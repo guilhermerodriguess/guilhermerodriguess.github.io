@@ -12,6 +12,7 @@ const Menu = () => {
     <>
     <div className='menu'>
       <Modal isOpen={modalIsOpen}
+        preventScroll={true}
         onRequestClose={closeModal}
         className='Modal'
         overlayClassName="Overlay"

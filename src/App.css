@@ -42,21 +42,19 @@ header {
 }
 
 .Modal {
-    position: absolute;
-    top: 26%;
-    left: 20%;
-    right: auto;
-    bottom: auto;
-    min-width: 200px;
-    height: 300px;
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    border: solid 3px var(--border-div);
-    background-color: var(--div-bg);
-    z-index: 4;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  right: 20%;
+  bottom: 25%;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border: solid 3px var(--border-div);
+  background-color: var(--div-bg);
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
 a {
