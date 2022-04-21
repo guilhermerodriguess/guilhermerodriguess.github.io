@@ -23,7 +23,9 @@ body {
 }
 
 .App {
-  margin: 1%;
+  max-width: 800px;
+  min-width: 290px;
+  margin: auto;
 }
 
 html {
@@ -378,10 +380,17 @@ input , textarea {
   background-color: var(--color);
   color: var(--body-bg);
   border-color: var(--body-bg);
+  resize: vertical;
 }
 
 input::placeholder, textarea::placeholder {
   color: var(--body-bg);
+}
+
+.sucessMessage {
+  margin: 20px 0px 0px 0px;
+  font-size: 34px;
+  color: #fafafa;
 }
 
 .btn-enviar {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import gitHub from '../Images/logoGithub.avif';
 import linkedin from '../Images/logoLinkedin.avif';
 import pin from '../Images/pinIcon.avif';
@@ -6,10 +6,17 @@ import phone from '../Images/phoneIcon.avif';
 import email from '../Images/emailIcon.avif'
 
 const Contato = () => {
+  const [messageSucess, setMessageSucess] = useState(false);
+
+  const feedbackMessage = ({target}) => {
+    target.reset();
+    setMessageSucess(true);
+  }
+
   return (
     <section id='contato' className='contato'>
       <h1>Contato</h1>
-      <div className='contato-content'>
+      <div className='contato-content'> 
         <div className='social-content'>
           <a target='_blank' href="https://github.com/guilhermerodriguess" rel="noreferrer">
             <img className='github' src={gitHub} alt="" />
@@ -39,12 +46,15 @@ const Contato = () => {
           </a>
         </div>
         <div className='inputs-content'>
-          <form className='form-inputs' action="">
+          <form className='form-inputs' action="https://api.staticforms.xyz/submit" method='POST' onSubmit={ (e) => feedbackMessage(e) } >
+            <input type="hidden" name="accessKey" value='872d05c8-246e-4ec0-8696-0bb9afc00932' />
+            <input type="hidden" name="redirectTo" value="https://guilhermerodriguess.github.io" />
             <div className='name-email-inputs'>
-              <input className='name-input' placeholder='Nome' type="text" />
-              <input className='email-input' placeholder='Email' type="email" />
+              <input name='name' className='name-input' placeholder='Nome' type="text" />
+              <input name='email' className='email-input' placeholder='Email' type="email" />
             </div>
-            <textarea className='escreva-input' placeholder='Escreva para mim...' name="" id="" cols="30" rows="2"></textarea>
+            <textarea name='message' className='escreva-input' placeholder='Escreva para mim...' cols="30" rows="2"></textarea>
+            { messageSucess && <h2 className='sucessMessage'>Mensagem enviada com sucesso!</h2> }
             <button className='btn-enviar' type='submit'>Enviar</button>
           </form>
         </div>
