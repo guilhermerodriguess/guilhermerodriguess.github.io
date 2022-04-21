@@ -48,7 +48,7 @@ const Contato = () => {
         <div className='inputs-content'>
           <form className='form-inputs' action="https://api.staticforms.xyz/submit" method='POST' onSubmit={ (e) => feedbackMessage(e) } >
             <input type="hidden" name="accessKey" value='872d05c8-246e-4ec0-8696-0bb9afc00932' />
-            <input type="hidden" name="redirectTo" value="https://guilhermerodriguess.github.io" />
+            <input type="hidden" name="redirectTo" value="https://guilhermerodriguess.github.io/#contato" />
             <div className='name-email-inputs'>
               <input name='name' className='name-input' placeholder='Nome' type="text" />
               <input name='email' className='email-input' placeholder='Email' type="email" />
