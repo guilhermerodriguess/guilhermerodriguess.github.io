@@ -1,5 +1,6 @@
 import React from 'react';
 import trivia from '../Images/Tela-de-Login.avif';
+import Trybetunes from '../Images/Trybetunes.avif'
 
 const Projetos = () => {
   return (
@@ -10,25 +11,33 @@ const Projetos = () => {
           <div>
             <img src={trivia} alt="" />
           </div>
-          <h3>Jogo de Perguntas</h3>
+          <a className='link-projeto' target="_blank" href="https://guilhermerodriguess.github.io/project-trivia" rel="noreferrer">
+            <button>Jogo de Perguntas</button>
+          </a>
         </div>
         <div className='projeto projeto-2'>
           <div>
-              <img src={trivia} alt="" />
-            </div>
-            <h3>Jogo de Perguntas</h3>
+            <img src={Trybetunes} alt="" />
+          </div>
+          <a className='link-projeto' target="_blank" href="https://guilhermerodriguess.github.io/project-trybetunes" rel="noreferrer">
+            <button>Streaming de música</button>
+          </a>
           </div>
         <div className='projeto projeto-3'>
           <div>
               <img src={trivia} alt="" />
             </div>
-            <h3>Jogo de Perguntas</h3>
+            <a className='link-projeto' target="_blank" href="https://guilhermerodriguess.github.io/project-frontend-online-store" rel="noreferrer">
+            <button>E-commerce</button>
+          </a>
           </div>
         <div className='projeto projeto-4'>
           <div>
               <img src={trivia} alt="" />
             </div>
-            <h3>Jogo de Perguntas</h3>
+            <a className='link-projeto' target="_blank" href="https://guilhermerodriguess.github.io/project-trivia" rel="noreferrer">
+            <button>Undefined</button>
+          </a>
           </div>
       </div>
     </section>

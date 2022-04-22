@@ -9,7 +9,7 @@ const Contato = () => {
   const [messageSucess, setMessageSucess] = useState(false);
 
   const feedbackMessage = ({target}) => {
-    target.reset();
+    // target.reset();
     setMessageSucess(true);
   }
 
@@ -46,9 +46,9 @@ const Contato = () => {
           </a>
         </div>
         <div className='inputs-content'>
-          <form className='form-inputs' action="https://api.staticforms.xyz/submit" method='POST' onSubmit={ (e) => feedbackMessage(e) } >
+          <form className='form-inputs' action="https://api.staticforms.xyz/submit" method='post' onSubmit={ (e) => feedbackMessage(e) } >
             <input type="hidden" name="accessKey" value='872d05c8-246e-4ec0-8696-0bb9afc00932' />
-            <input type="hidden" name="redirectTo" value="https://guilhermerodriguess.github.io/#contato" />
+            <input type="hidden" name="redirectTo" value="https://guilhermerodriguess.github.io/" />
             <div className='name-email-inputs'>
               <input name='name' className='name-input' placeholder='Nome' type="text" />
               <input name='email' className='email-input' placeholder='Email' type="email" />
