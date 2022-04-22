@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e0ad71e.css",
-    "main.js": "/static/js/main.8b8d7308.js",
+    "main.css": "/static/css/main.b2fa123e.css",
+    "main.js": "/static/js/main.173373e0.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/GuilhermeCurrículo.pdf": "/static/media/GuilhermeCurrículo.4d5fe2800c7fb3429067.pdf",
     "static/media/SquarePeg-Regular.ttf": "/static/media/SquarePeg-Regular.381be1381bbd94205c6f.ttf",
     "static/media/RedactedScript-Regular.ttf": "/static/media/RedactedScript-Regular.545fb27772253d40b1f2.ttf",
     "static/media/circleImage.avif": "/static/media/circleImage.7bb759724306b95aa409.avif",
     "static/media/SquareImage.avif": "/static/media/SquareImage.28e7f529507ee39d4653.avif",
+    "static/media/frontEndOnlineStore.avif": "/static/media/frontEndOnlineStore.f63a7c051d499a05e86e.avif",
     "static/media/Trybetunes.avif": "/static/media/Trybetunes.6fedbd776f1199708171.avif",
     "static/media/logoGithub.avif": "/static/media/logoGithub.973d9c043571d604f00e.avif",
     "static/media/phoneIcon.avif": "/static/media/phoneIcon.fcbf95e14002f57e7fdf.avif",
@@ -20,12 +21,12 @@
     "static/media/pinIcon.avif": "/static/media/pinIcon.bbd473397fa4da67de42.avif",
     "static/media/toggle.avif": "/static/media/toggle.f005f92d1e9318680171.avif",
     "index.html": "/index.html",
-    "main.0e0ad71e.css.map": "/static/css/main.0e0ad71e.css.map",
-    "main.8b8d7308.js.map": "/static/js/main.8b8d7308.js.map",
+    "main.b2fa123e.css.map": "/static/css/main.b2fa123e.css.map",
+    "main.173373e0.js.map": "/static/js/main.173373e0.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e0ad71e.css",
-    "static/js/main.8b8d7308.js"
+    "static/css/main.b2fa123e.css",
+    "static/js/main.173373e0.js"
   ]
 }
