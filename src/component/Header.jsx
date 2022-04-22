@@ -10,6 +10,22 @@ const Header = () => {
       <div className='menu-content'>
       <img onClick={openModal} src={menuIcon} alt="menu icon" className='menu-icon'/>
       </div>
+      <nav>
+        <ul>
+          <a href="#home">
+            <li>Início</li>
+          </a>
+          <a href="#sobre">
+            <li>Sobre mim</li>
+          </a>          
+          <a href="#projetos">
+            <li>Projetos</li>
+          </a>          
+          <a href="#contato">
+            <li>Contato</li>
+          </a>
+        </ul>
+      </nav>
     </header>
   )
 }

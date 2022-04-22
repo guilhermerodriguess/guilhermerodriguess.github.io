@@ -1,6 +1,7 @@
 import React from 'react';
 import trivia from '../Images/Tela-de-Login.avif';
 import Trybetunes from '../Images/Trybetunes.avif'
+import frontEndOnlineStore from '../Images/frontEndOnlineStore.avif'
 
 const Projetos = () => {
   return (
@@ -25,7 +26,7 @@ const Projetos = () => {
           </div>
         <div className='projeto projeto-3'>
           <div>
-              <img src={trivia} alt="" />
+              <img src={frontEndOnlineStore} alt="" />
             </div>
             <a className='link-projeto' target="_blank" href="https://guilhermerodriguess.github.io/project-frontend-online-store" rel="noreferrer">
             <button>E-commerce</button>

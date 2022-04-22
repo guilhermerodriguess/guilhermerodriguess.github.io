@@ -1,10 +1,6 @@
 * {
   font-family: 'square peg';
   font-weight: 1;
-} 
-
-*::selection {
-  background: #4d6b58;
 }
 
 *:focus {
