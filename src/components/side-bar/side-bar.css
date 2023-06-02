@@ -1,0 +1,41 @@
+.sidebar {
+  position: fixed;
+  bottom: 2rem;
+  left: 3rem;
+  animation: slideInFromBottom 1s ease-in-out;
+}
+
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.sidebar__social-icons{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.sidebar__social-icons li a img{
+  transition: .6s;
+}
+
+.sidebar__social-icons li a img:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}

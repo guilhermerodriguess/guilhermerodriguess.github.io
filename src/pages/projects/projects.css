@@ -1,0 +1,66 @@
+.project.mobile {
+  display: none;
+}
+
+.project.desktop {
+  height: 100vh;
+  padding: 0 8rem;
+  overflow: auto;
+}
+
+@media (max-width: 768px) {
+  .project.desktop {
+    display: none;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: auto;
+    justify-content: center;
+  }
+  .project.mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-mobile-container {
+    position: relative;
+  }
+
+  .card-mobile {
+    /* height: 100%; */
+    padding-bottom: 1rem;
+  }
+
+  .card-mobile-title {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .card-mobile-image {
+    width: 100vw;
+  }
+
+  .card-mobile-description p {
+    text-align: center;
+    margin: 1rem;
+  }
+
+  .paging-item button {
+    fill: var(--primary-color) !important;  
+  }
+
+  .slider-control-centerright, .slider-control-centerleft {
+    display: none;
+  }
+
+  .slider-control-bottomcenter {
+    padding-bottom: 1rem;
+  }
+}

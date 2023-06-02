@@ -1,0 +1,133 @@
+.menu-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  font-family: var(--font-regular);
+  letter-spacing: 0.1rem;
+  font-size: .8rem;
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(.1rem);
+  z-index: 999;
+  animation: slideInFromLeft 1.5s ease-in-out;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.menu-nav__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+
+}
+
+.menu-nav__link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  padding: 1rem;
+  transition: .6s;
+}
+
+.menu-nav__item {
+  transition: .3s;
+}
+
+.menu-nav__item:hover {
+  transform: scale(1.1);
+}
+
+.menu-nav__logo-image {
+  max-width: 100%;
+  max-height: 100%;
+  height: 1.5rem;
+  transition: .3s;
+}
+
+.menu-nav__logo-image:hover {
+  transform: scale(1.1);
+}
+
+.menu-nav__checkbox {
+  display: none;
+}
+
+@media (max-width: 768px) {
+/* CSS do menu hambúrguer */
+.menu-nav__checkbox {
+  display: none;
+}
+
+.menu-nav__icon {
+  width: 30px;
+  cursor: pointer;
+  border-top: 2px solid ;
+}
+
+.menu-nav__icon::before,
+.menu-nav__icon::after {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: var(--primary-color);
+  transition: transform 0.3s ease;
+  margin-top: 10px;
+  position: relative;
+}
+
+.menu-nav__checkbox:checked ~ .menu-nav__icon {
+  border-top: 0px;
+}
+
+.menu-nav__checkbox:checked ~ .menu-nav__icon::before {
+  transform: rotate(135deg);
+}
+
+.menu-nav__checkbox:checked ~ .menu-nav__icon::after {
+  transform: rotate(-135deg);
+  top: -12px;
+}
+
+.menu-nav__checkbox:checked ~ .menu-nav__list {
+  width: 100%;
+  height: auto;
+  visibility: visible;
+  overflow: hidden;
+}
+
+.menu-nav__list {
+  display: block; 
+  border-radius: .2rem 0 0 .2rem;
+  box-shadow: -4px 4px 20px 1px rgba(0, 0, 0,0.5);
+  background:radial-gradient(circle at 40% 0%, rgb(44, 44, 44) 0%, rgb(24, 25, 30) 70%);
+  position: absolute ;
+  top: 5rem;
+  right: 0px;
+  font-size: 2rem;
+  text-align: center;
+  width: 0px;
+  transition: .6s;
+  visibility: hidden;
+  overflow: hidden; 
+}
+
+.menu-nav__item {
+  padding: 1rem;
+}
+
+}
