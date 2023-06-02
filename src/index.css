@@ -19,6 +19,7 @@ html {
 }
 
 body {
+  overflow: hidden;
   margin: 0;
   padding: 0;
   font-family: var(--font-bold);
@@ -44,5 +45,22 @@ body {
   background:radial-gradient(circle at 40% 0%, rgba(65, 67, 70, 1) 0%, rgba(24, 25, 30, 1) 70%);
 }
 
-@import url(https://db.onlinewebfonts.com/c/6a28a1fb5b77054a12626d0c23c92aa2?family=CeraCY-Bold);
-@import url(https://db.onlinewebfonts.com/c/a1ab9bebae84d82fbcfe930c4643de7a?family=CeraCY-Regular);
+@font-face {
+  font-family: 'CeraCY-Bold';
+  src: url('../src/fonts/CeraCY-Bold.eot');
+  src: url('../src/fonts/CeraCY-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../src/fonts/CeraCY-Bold.woff2') format('woff2'),
+       url('../src/fonts/CeraCY-Bold.woff') format('woff'),
+       url('../src/fonts/CeraCY-Bold.ttf') format('truetype'),
+       url('../src/fonts/CeraCY-Bold.svg#CeraCY-Bold') format('svg');
+}
+
+@font-face {
+  font-family: 'CeraCY-Regular';
+  src: url('../src/fonts/CeraCY-Regular.eot');
+  src: url('../src/fonts/CeraCY-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../src/fonts/CeraCY-Regular.woff2') format('woff2'),
+       url('../src/fonts/CeraCY-Regular.woff') format('woff'),
+       url('../src/fonts/CeraCY-Regular.ttf') format('truetype'),
+       url('../src/fonts/CeraCY-Regular.svg#CeraCY-Regular') format('svg');
+}

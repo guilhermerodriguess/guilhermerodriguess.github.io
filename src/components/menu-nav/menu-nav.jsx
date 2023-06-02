@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/icons/logo_gr_white.png';
 import './menu-nav.css';
 
@@ -7,22 +8,22 @@ function MenuNav() {
   return (
     <nav className="menu-nav">
       <div className="menu-nav__logo">
-        <a href="/">
+        <Link to="/">
           <img src={logo} alt="Logo da Empresa" className="menu-nav__logo-image" />
-        </a>
+        </Link>
       </div>
       <input type="checkbox" id="menu-nav-toggle" className="menu-nav__checkbox" />
       <label htmlFor="menu-nav-toggle" className="menu-nav__icon" />
       <ul className="menu-nav__list">
         <li className="menu-nav__item">
-          <a href="/projects" className="menu-nav__link">
+          <Link to="/projects" className="menu-nav__link">
             PROJECTS
-          </a>
+          </Link>
         </li>
         <li className="menu-nav__item">
-          <a href="/contact" className="menu-nav__link">
+          <Link to="/contact" className="menu-nav__link">
             CONTACT
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

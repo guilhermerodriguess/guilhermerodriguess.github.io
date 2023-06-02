@@ -9,17 +9,17 @@ function Sidebar() {
     <aside className="sidebar">
       <ul className="sidebar__social-icons">
         <li>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/guilhermerodriguessousa/" target="_blank" rel="noopener noreferrer">
             <img src={linkedinIcon} alt="Linkedin Ícone" />
           </a>
         </li>
         <li>
-          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/guilhermerodriguess/" target="_blank" rel="noopener noreferrer">
             <img src={githubIcon} alt="Github Ícone" />
           </a>
         </li>
         <li>
-          <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://api.whatsapp.com/send?phone=5561999951917&text=Ol%C3%A1%20Guilherme,%20vim%20pelo%20seu%20portf%C3%B3lio!%20Tudo%20bem%20com%20voc%C3%AA?" target="_blank" rel="noopener noreferrer">
             <img src={whatsappIcon} alt="Whats App Ícone" />
           </a>
         </li>
