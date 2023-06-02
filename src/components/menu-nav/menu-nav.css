@@ -12,7 +12,18 @@
   width: 100%;
   backdrop-filter: blur(.1rem);
   z-index: 999;
-  animation: slideInFromLeft 1.5s ease-in-out;
+  animation: slideInFromRight 1.5s ease-in-out;
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 @keyframes slideInFromLeft {
@@ -105,6 +116,7 @@
 
 .menu-nav__checkbox:checked ~ .menu-nav__list {
   width: 100%;
+  right: 0px;
   height: auto;
   visibility: visible;
   overflow: hidden;

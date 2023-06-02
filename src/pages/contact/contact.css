@@ -5,6 +5,7 @@
   align-items: flex-end;
   text-align: center;
   word-spacing: .1rem;
+  animation: slideInFromLeft 1.5s ease-in-out;
 }
 
 .contact section {

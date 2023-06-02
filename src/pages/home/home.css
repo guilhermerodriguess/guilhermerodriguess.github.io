@@ -4,24 +4,8 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  animation: slideInFromRight 1.5s ease-in-out;
+  animation: slideInFromLeft 1.5s ease-in-out;
 }
-
-main {
-  animation: slideInFromRight 1.5s ease-in-out;
-}
-
-@keyframes slideInFromRight {
-  from {
-    transform: translateX(100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
 
 .home__title {
   font-size: calc(6rem + 2vmin);
